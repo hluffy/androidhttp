@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    tools:context=".LoginActivity">
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        
+	        <TextView
+	        android:layout_width="50dp"
+	        android:layout_height="wrap_content"
+	        android:text="用户名:"
+	        />
+	
+	    	<EditText
+	        android:id="@+id/username"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        
+	        <TextView
+	        android:layout_width="50dp"
+	        android:layout_height="wrap_content"
+	        android:text="密    码:" 
+	        />
+	
+	    	<EditText
+	        android:id="@+id/password"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动登录"
+            />
+         <Switch 
+	       android:id="@+id/mySwitch"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:background="@color/mybutton"/>
+    
+
+</LinearLayout>
